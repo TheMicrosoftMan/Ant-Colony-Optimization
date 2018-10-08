@@ -1,0 +1,14 @@
+D:\комп\Desktop\LR1\LR1\bin\Debug\LR1.exe.config
+D:\комп\Desktop\LR1\LR1\bin\Debug\LR1.exe
+D:\комп\Desktop\LR1\LR1\bin\Debug\LR1.pdb
+D:\комп\Desktop\LR1\LR1\obj\Debug\LR1.csprojResolveAssemblyReference.cache
+D:\комп\Desktop\LR1\LR1\obj\Debug\LR1.exe
+D:\комп\Desktop\LR1\LR1\obj\Debug\LR1.pdb
+D:\комп\Desktop\LR1\LR1\bin\Debug\Newtonsoft.Json.Net20.dll
+D:\yuraz\Documents\ДонНУ\5 семестр\Обчислювальний інтелект Тимчук\LR1\LR1\bin\Debug\LR1.exe.config
+D:\yuraz\Documents\ДонНУ\5 семестр\Обчислювальний інтелект Тимчук\LR1\LR1\bin\Debug\LR1.exe
+D:\yuraz\Documents\ДонНУ\5 семестр\Обчислювальний інтелект Тимчук\LR1\LR1\bin\Debug\LR1.pdb
+D:\yuraz\Documents\ДонНУ\5 семестр\Обчислювальний інтелект Тимчук\LR1\LR1\bin\Debug\Newtonsoft.Json.Net20.dll
+D:\yuraz\Documents\ДонНУ\5 семестр\Обчислювальний інтелект Тимчук\LR1\LR1\obj\Debug\LR1.csprojResolveAssemblyReference.cache
+D:\yuraz\Documents\ДонНУ\5 семестр\Обчислювальний інтелект Тимчук\LR1\LR1\obj\Debug\LR1.exe
+D:\yuraz\Documents\ДонНУ\5 семестр\Обчислювальний інтелект Тимчук\LR1\LR1\obj\Debug\LR1.pdb

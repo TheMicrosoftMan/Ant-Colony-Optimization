@@ -1,0 +1,8 @@
+D:\yuraz\Documents\ДонНУ\5 семестр\Обчислювальний інтелект Тимчук\LR1\Ant Colony TSP\bin\Debug\Ant Colony TSP.exe.config
+D:\yuraz\Documents\ДонНУ\5 семестр\Обчислювальний інтелект Тимчук\LR1\Ant Colony TSP\bin\Debug\Ant Colony TSP.exe
+D:\yuraz\Documents\ДонНУ\5 семестр\Обчислювальний інтелект Тимчук\LR1\Ant Colony TSP\bin\Debug\Ant Colony TSP.pdb
+D:\yuraz\Documents\ДонНУ\5 семестр\Обчислювальний інтелект Тимчук\LR1\Ant Colony TSP\obj\Debug\Ant Colony TSP.exe
+D:\yuraz\Documents\ДонНУ\5 семестр\Обчислювальний інтелект Тимчук\LR1\Ant Colony TSP\obj\Debug\Ant Colony TSP.pdb
+D:\yuraz\Documents\ДонНУ\5 семестр\Обчислювальний інтелект Тимчук\LR1\Ant Colony TSP\obj\Debug\Ant Colony TSP.csprojResolveAssemblyReference.cache
+D:\yuraz\Documents\ДонНУ\5 семестр\Обчислювальний інтелект Тимчук\LR1\Ant Colony TSP\bin\Debug\Newtonsoft.Json.dll
+D:\yuraz\Documents\ДонНУ\5 семестр\Обчислювальний інтелект Тимчук\LR1\Ant Colony TSP\bin\Debug\Newtonsoft.Json.xml

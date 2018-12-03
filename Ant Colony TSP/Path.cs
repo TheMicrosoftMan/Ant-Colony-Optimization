@@ -9,9 +9,9 @@ namespace Ant_Colony_TSP
     class Path
     {
         public List<CoupleOfCities> coupleOfCitiesList;
-        public int distance;
+        public double distance;
 
-        public Path(List<CoupleOfCities> list, int dist)
+        public Path(List<CoupleOfCities> list, double dist)
         {
             coupleOfCitiesList = list;
             distance = dist;

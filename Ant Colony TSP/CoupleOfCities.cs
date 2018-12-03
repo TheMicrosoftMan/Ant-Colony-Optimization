@@ -10,13 +10,19 @@ namespace Ant_Colony_TSP
     {
         public string from { get; set; }
         public string to { get; set; }
-        public int distance;
+        public double distance;
+        public double pheromone { get; set; }
+        public double imovir { get; set; }
 
-        public CoupleOfCities(string f, string t, int d)
+        public CoupleOfCities(string f, string t, double d)
         {
             from = f;
             to = t;
             distance = d;
+        }
+
+        public CoupleOfCities()
+        {
         }
     }
 }

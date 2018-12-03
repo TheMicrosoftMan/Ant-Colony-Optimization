@@ -12,24 +12,40 @@ namespace Ant_Colony_TSP
     {
         static void Main(string[] args)
         {
-            int distance = 0;
+            double distance = 0;
             List<Path> paths = new List<Path>(); // всі шляхи, які знайшли комахи
 
             List<CoupleOfCities> couplesOfCities = new List<CoupleOfCities>(); //пари міст
             couplesOfCities = loadFromJSON();
+
+            Random setPheromone = new Random();
+            for (int i = 0; i < couplesOfCities.Count; i++)
+            {
+                couplesOfCities[i].pheromone = setPheromone.Next(1, 10);
+            }
 
             List<CoupleOfCities> listCites = new List<CoupleOfCities>(); // шлях, який знайшла одна комаха
             List<CoupleOfCities> sameFroms = new List<CoupleOfCities>(); // однакові шляхи, серед яких буде випадково обиратись один
 
             Random rand = new Random(); // для випадкового вибору одного з декількох маршрутів
 
-            int ants = 200; /*кількість комах*/
+            int ants = 10; /*кількість комах*/
+
+            string startCityName = "Alavus";
 
             do
             {
-                Console.WriteLine(ants * 100 / 200 /*кількість комах*/ + "%");
-                listCites.Add(couplesOfCities[0]); // початкове місто
-                string finishCity = "Espoo"; // кінцеве місто
+                Console.WriteLine(ants * 100 / 10 /*кількість комах*/ + "%");
+                CoupleOfCities startCity = new CoupleOfCities();
+                foreach (var item in couplesOfCities)
+                {
+                    if (startCityName == item.from)
+                    {
+                        startCity = item;
+                    }
+                }
+                listCites.Add(startCity); // початкове місто
+                string finishCity = startCityName; // кінцеве місто
 
                 for (int i = 0; i < couplesOfCities.Count;)
                 {
@@ -53,6 +69,18 @@ namespace Ant_Colony_TSP
                         }
                         else
                         {
+                            double sum = 0;
+                            foreach (var item in sameFroms)
+                            {
+                                if (item.distance != 0)
+                                {
+                                    sum += item.pheromone / item.distance;
+                                }
+                            }
+                            for (int e = 0; e < sameFroms.Count; e++)
+                            {
+                                sameFroms[e].imovir = 100 * (1 / (sameFroms[e].distance * sameFroms[e].pheromone) / (sum));
+                            }
                             listCites.Add(sameFroms[rand.Next(sameFroms.Count)]); // вибираємо випадкове місто зі списку міст, в які можна перейти, та додаємо його в список міст
                             sameFroms.Clear();
                             i++;
@@ -92,9 +120,9 @@ namespace Ant_Colony_TSP
             Console.ReadLine();
         }
 
-        public static int sumDistance(List<CoupleOfCities> cities)
+        public static double sumDistance(List<CoupleOfCities> cities)
         {
-            int distance = 0;
+            double distance = 0;
             for (int i = 0; i < cities.Count; i++)
             {
                 distance += cities[i].distance;
@@ -109,7 +137,7 @@ namespace Ant_Colony_TSP
             return couplesOfCities;
         }
 
-        public static void write(List<CoupleOfCities> listCites, int distance)
+        public static void write(List<CoupleOfCities> listCites, double distance)
         {
             Console.Write("Path: ");
             for (int i = 0; i < listCites.Count; i++)

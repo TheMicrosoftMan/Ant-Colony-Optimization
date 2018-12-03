@@ -1,0 +1,9 @@
+D:\Documents\ДонНУ\5 семестр\Ant-Colony-Optimization\MDVRP Ant Colony Optimization\bin\Debug\MDVRP Ant Colony Optimization.exe.config
+D:\Documents\ДонНУ\5 семестр\Ant-Colony-Optimization\MDVRP Ant Colony Optimization\bin\Debug\MDVRP Ant Colony Optimization.exe
+D:\Documents\ДонНУ\5 семестр\Ant-Colony-Optimization\MDVRP Ant Colony Optimization\bin\Debug\MDVRP Ant Colony Optimization.pdb
+D:\Documents\ДонНУ\5 семестр\Ant-Colony-Optimization\MDVRP Ant Colony Optimization\bin\Debug\Newtonsoft.Json.Net20.dll
+D:\Documents\ДонНУ\5 семестр\Ant-Colony-Optimization\MDVRP Ant Colony Optimization\obj\Debug\MDVRP Ant Colony Optimization.csprojAssemblyReference.cache
+D:\Documents\ДонНУ\5 семестр\Ant-Colony-Optimization\MDVRP Ant Colony Optimization\obj\Debug\MDVRP Ant Colony Optimization.csproj.CoreCompileInputs.cache
+D:\Documents\ДонНУ\5 семестр\Ant-Colony-Optimization\MDVRP Ant Colony Optimization\obj\Debug\MDVRP Ant Colony Optimization.csproj.CopyComplete
+D:\Documents\ДонНУ\5 семестр\Ant-Colony-Optimization\MDVRP Ant Colony Optimization\obj\Debug\MDVRP Ant Colony Optimization.exe
+D:\Documents\ДонНУ\5 семестр\Ant-Colony-Optimization\MDVRP Ant Colony Optimization\obj\Debug\MDVRP Ant Colony Optimization.pdb
